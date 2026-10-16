@@ -4,6 +4,9 @@ venv/
 env/
 ENV/
 
+# Respaldo local de assets pesados
+original_assets_backup/
+
 # Archivos de caché y compilación de Python
 __pycache__/
 *.py[cod]
