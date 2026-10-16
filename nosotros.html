@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | FV.IECOM</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'], },
+                    colors: {
+                        marca: {
+                            oscuro: '#0f172a', azul: '#3b82f6', verde: '#a3e635', claro: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-marca-claro text-slate-800 antialiased">
+
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Logo FV.IECOM" class="h-36 w-auto object-contain">
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Inicio</a>
+                    <a href="nosotros.html" class="text-marca-azul font-bold border-b-2 border-marca-verde pb-1">Nosotros</a>
+                    <a href="index.html#servicios" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Servicios</a>
+                    <a href="index.html#proyectos" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Proyectos</a>
+                </nav>
+                <div class="hidden md:flex items-center">
+                    <a href="index.html#contacto" class="bg-marca-verde text-marca-oscuro px-6 py-2 rounded-lg font-bold hover:bg-lime-400 transition-colors shadow-md">
+                        Cotizar Proyecto
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-32 pb-16 bg-marca-oscuro text-white border-b-4 border-marca-verde">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                Acerca de <span class="text-marca-azul">FV.IECOM</span>
+            </h1>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                Somos una empresa dedicada a brindar servicios de diseño, construcción y mantenimiento de infraestructura tecnológica, eléctrica y civil.
+            </p>
+        </div>
+    </main>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12">
+            <div class="lg:w-1/2">
+                <h2 class="text-3xl font-bold text-marca-oscuro mb-6">Nuestra Estructura Organizacional</h2>
+                <div class="h-1 w-20 bg-marca-azul rounded mb-6"></div>
+                <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                    FV.IECOM S.A.S. se ha consolidado como un aliado estratégico en el sector hospitalario, residencial, comercial e industrial. Desarrollamos cada proyecto basándonos en estrictos reglamentos técnicos (como el RETIE), garantizando seguridad y eficiencia.
+                </p>
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">
+                    Contamos con una sólida estructura orientada a la calidad y el cumplimiento de los sistemas integrados de gestión, con el propósito fundamental de satisfacer las necesidades de nuestros clientes y superar sus expectativas.
+                </p>
+            </div>
+            <div class="lg:w-1/2">
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Ingenieros trabajando" class="rounded-2xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-marca-claro">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                
+                <div class="bg-white p-10 rounded-2xl shadow-lg border-t-4 border-marca-azul hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-marca-azul/10 rounded-xl flex items-center justify-center text-marca-azul mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2v16z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-marca-oscuro mb-4">Nuestra Misión</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Prestar servicios de calidad, con personal competente que ejecute su trabajo bajo condiciones seguras y el cuidado del medio ambiente. Atendemos el mercado público y privado, profundamente comprometidos con las expectativas de nuestros clientes y el desarrollo sostenible.
+                    </p>
+                </div>
+
+                <div class="bg-white p-10 rounded-2xl shadow-lg border-t-4 border-marca-verde hover:-translate-y-2 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-marca-verde/20 rounded-xl flex items-center justify-center text-marca-verde mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-marca-oscuro mb-4">Nuestra Visión</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Consolidarnos para el año 2028 como una empresa líder y referente a nivel nacional en la ejecución de proyectos de ingeniería integral, destacándonos por nuestra innovación tecnológica, responsabilidad social y la excelencia operativa de nuestro talento humano.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-marca-oscuro text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-6">Sostenibilidad y Calidad</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto mb-12">
+                En FV.IECOM nos destacamos en la industria gracias a nuestros compromisos diferenciales con las personas, la comunidad y el medio ambiente.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-marca-azul rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Gestión de Calidad</h4>
+                    <p class="text-sm text-gray-400">Procesos optimizados para garantizar la excelencia operativa y técnica.</p>
+                </div>
+                
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-marca-verde rounded-full flex items-center justify-center mx-auto mb-4 text-marca-oscuro">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Medio Ambiente</h4>
+                    <p class="text-sm text-gray-400">Ejecutamos nuestras obras minimizando el impacto ambiental.</p>
+                </div>
+
+                <div class="p-6">
+                    <div class="w-16 h-16 bg-marca-azul rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Seguridad Ocupacional</h4>
+                    <p class="text-sm text-gray-400">Cuidamos la integridad de nuestro personal en cada instalación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-marca-oscuro text-gray-300 pt-16 pb-8 border-t border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-white mb-6">¿Tienes un proyecto en mente?</h2>
+                    <p class="mb-8 text-gray-400">Déjanos tus datos y nuestro equipo de ingenieros se pondrá en contacto contigo para asesorarte con la mejor solución.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-marca-azul/20 rounded-full flex items-center justify-center text-marca-azul">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            </div>
+                            <span class="font-medium">logistica@fviecomsas.com</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-marca-azul/20 rounded-full flex items-center justify-center text-marca-azul">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            </div>
+                            <span class="font-medium">+57 3122584172</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-marca-azul/20 rounded-full flex items-center justify-center text-marca-azul">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            </div>
+                            <span class="font-medium">Medellín, Colombia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 p-8 rounded-xl shadow-lg border border-slate-700">
+                    <form action="https://formspree.io/f/mwvazbdr" method="POST" class="space-y-4">
+                        <div>
+                            <label for="nombre" class="block text-sm font-medium text-gray-400 mb-1">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-marca-verde transition-colors" placeholder="Ej. Carlos Pérez">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-400 mb-1">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-marca-verde transition-colors" placeholder="ejemplo@empresa.com">
+                        </div>
+                        <div>
+                            <label for="mensaje" class="block text-sm font-medium text-gray-400 mb-1">¿En qué podemos ayudarte?</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-marca-verde transition-colors" placeholder="Escribe los detalles de tu requerimiento..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-marca-verde text-marca-oscuro font-bold py-3 rounded-lg hover:bg-lime-400 transition-colors shadow-lg">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <span class="text-xl font-bold text-white">FV.<span class="text-marca-verde">IECOM</span> S.A.S.</span>
+                </div>
+                <p class="text-sm text-gray-500">
+                    &copy; 2026 FV.IECOM. Todos los derechos reservados yampier valle developer.
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

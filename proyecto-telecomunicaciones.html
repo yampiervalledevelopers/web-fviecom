@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Center y Telecomunicaciones | FV.IECOM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'], }, colors: { marca: { oscuro: '#0f172a', azul: '#3b82f6', verde: '#a3e635', claro: '#f8fafc' } } } } }
+    </script>
+</head>
+<body class="font-sans bg-white text-slate-800 antialiased">
+
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html"><img src="logo.png" alt="Logo FV.IECOM" class="h-20 w-auto object-contain"></a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Inicio</a>
+                    <a href="nosotros.html" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Nosotros</a>
+                    <a href="index.html#servicios" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Servicios</a>
+                    <a href="index.html#proyectos" class="text-marca-azul font-bold transition-colors">Proyectos</a>
+                </nav>
+                <div class="hidden md:flex items-center">
+                    <a href="index.html#contacto" class="bg-marca-verde text-marca-oscuro px-6 py-2 rounded-lg font-bold hover:bg-lime-400 transition-colors shadow-md">Cotizar Proyecto</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-32 pb-16 bg-marca-oscuro text-white border-b-4 border-marca-azul">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <a href="index.html#proyectos" class="text-gray-400 font-semibold flex items-center gap-2 mb-4 hover:text-white transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                Volver a Proyectos
+            </a>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Infraestructura de <span class="text-marca-verde">Data Centers</span></h1>
+            <p class="text-xl text-gray-300 max-w-3xl">Implementación de centros de datos de alta disponibilidad y redes de telecomunicaciones de última generación.</p>
+        </div>
+    </main>
+
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                
+                <div class="lg:col-span-2">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Data Center Central" class="rounded-2xl shadow-lg w-full mb-10">
+                    
+                    <h2 class="text-3xl font-bold text-marca-oscuro mb-6">Proyectos Generales en Telecomunicaciones</h2>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        En el sector de las telecomunicaciones y centros de datos, realizamos proyectos integrales que aseguran que la información de su empresa fluya sin interrupciones. Estos son los pilares de nuestra ejecución:
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                        <div class="p-6 bg-marca-claro rounded-xl border-l-4 border-marca-azul">
+                            <h3 class="font-bold text-marca-oscuro mb-2">Cableado Estructurado</h3>
+                            <p class="text-sm text-gray-600">Instalación de redes de cobre (Cat 6, 6A, 7) para oficinas y plantas industriales bajo estándares TIA/EIA.</p>
+                        </div>
+                        <div class="p-6 bg-marca-claro rounded-xl border-l-4 border-marca-azul">
+                            <h3 class="font-bold text-marca-oscuro mb-2">Redes de Fibra Óptica</h3>
+                            <p class="text-sm text-gray-600">Fusión y certificación de enlaces de fibra para interconexión de edificios y alta velocidad en el backbone.</p>
+                        </div>
+                        <div class="p-6 bg-marca-claro rounded-xl border-l-4 border-marca-azul">
+                            <h3 class="font-bold text-marca-oscuro mb-2">Montaje de Racks y Gabinetes</h3>
+                            <p class="text-sm text-gray-600">Organización profesional de gabinetes de comunicaciones (MDF/IDF) con gestión de cables técnica.</p>
+                        </div>
+                        <div class="p-6 bg-marca-claro rounded-xl border-l-4 border-marca-azul">
+                            <h3 class="font-bold text-marca-oscuro mb-2">Sistemas de Respaldo UPS</h3>
+                            <p class="text-sm text-gray-600">Instalación de sistemas de potencia ininterrumpida para proteger equipos críticos contra fallas eléctricas.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="text-2xl font-bold text-marca-oscuro mb-4">Caso de Éxito: Modernización de Nodo Central</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        Recientemente completamos la migración de un centro de datos para un cliente del sector salud, donde integramos aire acondicionado de precisión, monitoreo ambiental y una nueva red de fibra óptica de 10Gbps, logrando una disponibilidad del 99.9%.
+                    </p>
+                </div>
+
+                <div class="space-y-8">
+                    <div class="bg-white p-8 rounded-2xl border-2 border-marca-claro shadow-sm h-fit">
+                        <h3 class="text-xl font-bold text-marca-oscuro mb-6 border-b pb-2">Capacidades Técnicas</h3>
+                        <ul class="space-y-4 text-sm">
+                            <li class="flex justify-between">
+                                <span class="text-gray-400 font-bold">CERTIFICACIONES</span>
+                                <span class="text-marca-oscuro font-semibold">BICSI / RCDD</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span class="text-gray-400 font-bold">ESTÁNDARES</span>
+                                <span class="text-marca-oscuro font-semibold">TIA-942 / BICSI</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span class="text-gray-400 font-bold">TECNOLOGÍAS</span>
+                                <span class="text-marca-oscuro font-semibold">SM / MM Fiber</span>
+                            </li>
+                        </ul>
+                        <div class="mt-8">
+                            <a href="index.html#contacto" class="block text-center bg-marca-verde text-marca-oscuro font-bold py-3 rounded-lg hover:bg-lime-400 transition-colors shadow-md">
+                                Solicitar Asesoría
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-marca-azul p-8 rounded-2xl text-white">
+                        <h4 class="font-bold text-lg mb-2">¿Sabías que...?</h4>
+                        <p class="text-sm text-blue-100">Un cableado mal organizado puede aumentar la temperatura de tus equipos hasta en un 15%, reduciendo su vida útil drásticamente.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-marca-oscuro text-gray-300 py-8 border-t-4 border-marca-verde">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-2">
+                <span class="text-xl font-bold text-white">FV.<span class="text-marca-verde">IECOM</span> S.A.S.</span>
+            </div>
+            <p class="text-sm text-gray-500">&copy; 2026 FV.IECOM. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

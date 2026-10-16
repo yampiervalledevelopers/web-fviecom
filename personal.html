@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suministro de Personal | FV.IECOM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'], }, colors: { marca: { oscuro: '#0f172a', azul: '#3b82f6', verde: '#a3e635', claro: '#f8fafc' } } } } }
+    </script>
+</head>
+<body class="font-sans bg-white text-slate-800 antialiased relative">
+
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Logo FV.IECOM" class="h-20 w-auto object-contain">
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Inicio</a>
+                    <a href="nosotros.html" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Nosotros</a>
+                    <a href="index.html#servicios" class="text-marca-azul font-bold transition-colors">Servicios</a>
+                    <a href="index.html#proyectos" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Proyectos</a>
+                    <a href="contacto.html" class="text-gray-700 hover:text-marca-azul font-semibold transition-colors">Contacto</a>
+                </nav>
+                <div class="hidden md:flex items-center">
+                    <a href="contacto.html" class="bg-marca-verde text-marca-oscuro px-6 py-2 rounded-lg font-bold hover:bg-lime-400 transition-colors shadow-md">
+                        Cotizar Proyecto
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-32 pb-16 bg-marca-oscuro text-white border-b-4 border-marca-verde">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center gap-4 mb-4">
+                <a href="index.html#servicios" class="text-gray-400 hover:text-white transition-colors flex items-center gap-1 text-sm font-semibold uppercase tracking-wider">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    Volver a Servicios
+                </a>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                Suministro de <span class="text-marca-azul">Personal</span>
+            </h1>
+            <p class="text-xl text-gray-300 max-w-3xl">
+                Provisión de personal técnico y profesional altamente calificado para proyectos de ingeniería, garantizando eficiencia, seguridad y cumplimiento normativo.
+            </p>
+        </div>
+    </main>
+
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Personal Técnico de Ingeniería" class="rounded-2xl shadow-xl w-full">
+                </div>
+                
+                <div>
+                    <h2 class="text-3xl font-bold text-marca-oscuro mb-6">Nuestro Equipo a su Disposición</h2>
+                    <p class="text-gray-600 mb-8">Sabemos que el éxito de una obra depende del talento humano. Nos encargamos de todo el proceso de selección, contratación y dotación legal, entregándole personal listo para ejecutar.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-marca-azul/10 rounded-lg flex items-center justify-center text-marca-azul">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-marca-oscuro mb-2">Ingenieros y Supervisores</h3>
+                                <p class="text-gray-600">Profesionales especializados en dirección de obra, interventoría, planeación y control de calidad (HSEQ) para proyectos eléctricos, civiles y de telecomunicaciones.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-marca-azul/10 rounded-lg flex items-center justify-center text-marca-azul">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-marca-oscuro mb-2">Técnicos y Linieros</h3>
+                                <p class="text-gray-600">Personal certificado con matrícula profesional (CONTE/CONALTEL) y cursos de trabajo seguro en alturas para intervención en redes de baja y media tensión.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-12 h-12 bg-marca-azul/10 rounded-lg flex items-center justify-center text-marca-azul">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-marca-oscuro mb-2">Cuadrillas Especializadas</h3>
+                                <p class="text-gray-600">Equipos de trabajo completos, integrados por oficiales y ayudantes, equipados con herramienta certificada y Elementos de Protección Personal (EPP) listos para despliegue.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-10">
+                        <a href="contacto.html" class="bg-marca-verde text-marca-oscuro font-bold py-3 px-8 rounded-lg hover:bg-lime-400 transition-colors shadow-lg inline-block">
+                            Solicitar Personal
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-marca-oscuro text-gray-300 py-8 border-t-4 border-marca-verde mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-2">
+                <span class="text-xl font-bold text-white">FV.<span class="text-marca-verde">IECOM</span> S.A.S.</span>
+            </div>
+            <p class="text-sm text-gray-500">
+                &copy; 2026 FV.IECOM. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/573122584172?text=Hola,%20me%20interesa%20conocer%20más%20sobre%20el%20servicio%20de%20Suministro%20de%20Personal." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 md:bottom-8 md:right-8 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 hover:scale-110 transition-all duration-300 z-50 flex items-center justify-center">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.031 0C5.385 0 0 5.385 0 12.031c0 2.115.55 4.181 1.595 5.998L.1 23.9l6.02-1.58c1.764.957 3.753 1.464 5.911 1.464 6.646 0 12.031-5.385 12.031-12.031S18.677 0 12.031 0zm0 21.802c-1.787 0-3.535-.48-5.068-1.39l-.364-.216-3.766.988.998-3.67-.236-.376A9.972 9.972 0 0 1 2.052 12.03c0-5.502 4.478-9.98 9.98-9.98s9.98 4.478 9.98 9.98-4.478 9.98-9.98 9.98zm5.474-7.466c-.3-.15-1.774-.876-2.048-.976-.274-.1-.474-.15-.674.15-.2.3-.774.976-.948 1.176-.174.2-.348.226-.648.076-.3-.15-1.266-.466-2.41-1.486-.888-.79-1.488-1.766-1.662-2.066-.174-.3-.018-.462.132-.612.134-.134.3-.35.45-.524.15-.174.2-.3.3-.5.1-.2.05-.374-.024-.524-.074-.15-.674-1.624-.924-2.224-.242-.58-.488-.5-.674-.51-.174-.008-.374-.008-.574-.008a1.12 1.12 0 0 0-.814.376c-.274.3-1.048 1.026-1.048 2.502 0 1.476 1.074 2.902 1.224 3.102.15.2 2.114 3.226 5.122 4.526 2.05.886 2.766.95 3.342.826.646-.14 1.774-.726 2.024-1.426.25-.7.25-1.3.174-1.426-.074-.126-.274-.202-.574-.352z"/>
+        </svg>
+    </a>
+    
+</body>
+</html>
